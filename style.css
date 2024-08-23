@@ -1,0 +1,110 @@
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 125px;
+}
+.menu {
+    display: inline;
+    margin: 0 25%;
+}
+
+a {
+    margin: 0 4%;
+}
+
+.cuerpo{
+    display: inline;
+    
+}
+
+.web {
+    float: left;
+    margin: 25px;
+}
+
+.marketing {
+    float: right;
+    margin: 25px;
+}
+
+.imgWeb {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+    width: 275px;
+    height: 175px;
+}
+
+.txtWeb {
+    display: inline-block;
+    vertical-align: middle;
+    height: 175px;
+    width: 275px;
+}
+.txtMarketing {
+    display: inline-block;
+    vertical-align: middle;
+    height: 175px;
+    width: 275px;
+}
+
+.imgMarketing {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+    width: 275px;
+    height: 175px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media (max-width: 1275px) {
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+        height: 125px;
+    }
+
+    .menu {
+        display: inline;
+        margin: 0 15%;
+    }
+
+    a {
+        margin: 0 2%;
+    }
+
+    .cuerpo {
+        text-align: center;
+    }
+    .web {
+        display: block;
+        margin: 25px;
+        text-align: center;
+    }
+
+    .marketing {
+        display: block;
+        margin: 25px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px){
+    .logo {
+        display: block;
+        height: 125px;
+        
+    }
+
+    .menu {
+        display: none;
+    }
+}
